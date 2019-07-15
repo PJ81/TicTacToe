@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./src/tic.js"></script>
+    <script src="./src/minimax.js"></script>
+
+</head>
+
+<body onload="start()">
+    <div id="board">
+        <div class="row">
+            <div id="0" class="cell">-</div>
+            <div id="1" class="cell">-</div>
+            <div id="2" class="cell">-</div>
+        </div>
+        <div class="row">
+            <div id="3" class="cell">-</div>
+            <div id="4" class="cell">-</div>
+            <div id="5" class="cell">-</div>
+        </div>
+        <div class="row">
+            <div id="6" class="cell">-</div>
+            <div id="7" class="cell">-</div>
+            <div id="8" class="cell">-</div>
+        </div>
+    </div>
+    <div id="go">
+        <p id="txt">TIE<br />GAME</p>
+        <button id="again">PLAY AGAIN</button>
+    </div>
+</body>
+
+</html>
